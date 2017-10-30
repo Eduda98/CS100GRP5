@@ -31,7 +31,7 @@ function getName(inputName) {
 }
 
 /*
-	New Change
+	New Change AGAIN LOL!!~
  * Parameters: text data with valid numbers separated by spaces on each line
  * Returns: a list of numbers
  */

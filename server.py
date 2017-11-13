@@ -20,6 +20,10 @@ def hello():
 def home():
     return render_template('index.html', name='Visitor')
     
+@server.route('/ionatan')
+def ionatan():
+    return render_template('test.html')
+
 @server.route('/name/<name>')
 def name(name=None):
     return render_template('index.html', name=name)
